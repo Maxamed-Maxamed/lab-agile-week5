@@ -58,3 +58,4 @@ export const filterByGenre = (movieList, genreId) =>
         .filter((m) => m.genre_ids.includes(genreId))
         .filter((m) => m.title.toLowerCase().search(string.toLowerCase()) !== -1);
 };
+
